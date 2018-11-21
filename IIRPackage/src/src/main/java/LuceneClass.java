@@ -23,7 +23,7 @@ import org.apache.lucene.store.RAMDirectory;
 public class LuceneClass {
     public static void indexer(String[] args) 
             throws IOException, ParseException {
-        System.out.println("OpenNLPClass.words : \n" + PreprocessingClass.words); 
+        System.out.println("OpenNLPClass.words : \n" + Indexing.words); 
         // 0. Specify the analyzer for tokenizing text.
         //    The same analyzer should be used for indexing and searching
         StandardAnalyzer analyzer = new StandardAnalyzer();
